@@ -33,4 +33,5 @@ const LogoGrupo = (props) => (
   </svg>
 )
 
+
 export default LogoGrupo
