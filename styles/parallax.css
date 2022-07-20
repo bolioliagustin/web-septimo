@@ -1,0 +1,25 @@
+:root {
+  --primary-color: #FCDF68;
+  --secondary-color: #F74F5C;
+  --tertiary-color: #383838;
+}
+
+.parallax{
+  margin-top: 40px;
+}
+.div-form-parallax {
+  background:rgb(255,255,247, 0.8);
+  padding: 15px 20px 15px 20px;
+  border-radius: 2%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)!important;
+}
+.form-control {
+  background:rgb(255,255,255,0.6) !important;
+}
+
+.icon_text {
+  font-size: 14px;
+}

@@ -1,0 +1,25 @@
+:root {
+    --primary-color: #FCDF68;
+    --secondary-color: #F74F5C;
+    --tertiary-color: #383838;
+    --primary-background-color:radial-gradient(circle, rgba(255,255,247,1) 0%, rgba(254,251,236,1) 100%);
+  }
+
+.footer {
+    background-color: var(--primary-color);
+}
+
+.icons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    justify-items: center;
+    align-items: center;
+}
+
+.icon_text {
+    font-size: 14px;
+}
+
+.btn-lg {
+    padding: 0% !important;
+}

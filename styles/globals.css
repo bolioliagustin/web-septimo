@@ -1,0 +1,192 @@
+:root {
+  --primary-color: #FCDF68;
+  --secondary-color: #F74F5C;
+  --tertiary-color: #383838;
+  --primary-background-color: radial-gradient(circle, rgba(255, 255, 247, 1) 0%, rgba(254, 251, 236, 1) 100%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  background: rgb(255, 255, 242);
+  background: radial-gradient(circle, rgba(255, 255, 242, 1) 0%, rgba(255, 248, 215, 1) 100%);
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.thin {
+  /* Montserrat Thin = 100 */
+  font-weight: 100;
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.extralight {
+  /* Montserrat Extra Light = 200 */
+  font-weight: 200;
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+
+.light {
+  /* Montserrat Light = 300 */
+  font-weight: 300;
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+
+.regular {
+  /* Montserrat Regular = 400 */
+  font-weight: 400;
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+
+.medium {
+  /* Montserrat Medium = 500 */
+  font-weight: 500;
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+
+.semibold {
+  /* Montserrat Semi-bold = 600 */
+  font-weight: 600;
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+
+.bold {
+  /* Montserrat Bold = 700 */
+  font-weight: 700;
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+
+.extrabold {
+  /* Montserrat Extra Bold = 800 */
+  font-weight: 800;
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+
+.black {
+  /* Montserrat Black = 900 */
+  font-weight: 900;
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.h1_animated {
+  text-align: center;
+  margin-top: 100px;
+  width: 100%;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn_primary {
+  background-color: var(--primary-color) !important;
+}
+
+.line {
+  width: 200px;
+  height: 2px;
+  background-color: var(--primary-color);
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+.line2 {
+  width: 200px;
+  height: 1px;
+  background-color: var(--primary-color);
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+.title {
+  font-size: 3.5rem !important;
+}
+
+.subtitle {
+  font-size: 2rem !important;
+}
+
+.sub-subtitle {
+  font-size: 1.5rem !important;
+}
+
+.textarea {
+  font-size: 1rem !important;
+}
+
+.img-responsive1 {
+  object-fit: cover;
+}
+
+.carousel-responsive1 {
+  object-fit: cover;
+  height: 60vh;
+  width: 100%;
+}
+
+.historia-container {
+  display: grid;
+  gap: 2vw;
+}
+
+.historia-text {
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .historia-text {
+    grid-template-columns: auto;
+  }
+}
+
+.img-historia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.alerta {
+  display: flex;
+}
