@@ -5,7 +5,7 @@ import axios from 'axios';
 export default function ({ value }) {
   const getArticle = async () => {
     const resultado = await axios.get(
-      "http://localhost:1337/api/noticias?populate=*"
+      "https://secret-springs-41816.herokuapp.com/api/noticias?populate=*"
     );
     console.log(resultado.data.data[0].attributes.image.data.attributes.url);
   };
@@ -24,7 +24,7 @@ export default function ({ value }) {
 }
 
 export async function getServerSideProps() {
-  const postRes = await axios.get("http://localhost:1337/api/noticias?populate=*");
+  const postRes = await axios.get("https://secret-springs-41816.herokuapp.com/api/noticias?populate=*");
   return {
     props: {
       value: postRes.data.data

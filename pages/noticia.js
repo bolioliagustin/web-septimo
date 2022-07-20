@@ -17,7 +17,7 @@ export default function ({ value }) {
 }
 
 export async function getServerSideProps() {
-  const postRes = await axios.get("http://localhost:1337/api/noticias?populate=*");
+  const postRes = await axios.get("https://secret-springs-41816.herokuapp.com/api/noticias?populate=*");
   return {
     props: {
       value: postRes.data.data

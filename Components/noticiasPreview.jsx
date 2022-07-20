@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function NoticiasPreview({ value }) {
-  const ApiUrl = "http://localhost:1337";
+  const ApiUrl = "https://secret-springs-41816.herokuapp.com";
   return (
     <>
     <div className="noticiaspreview">
