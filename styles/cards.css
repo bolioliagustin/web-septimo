@@ -8,6 +8,11 @@
     gap: 10px;
 }
 
+.md-2.text-center {
+    display: flex;
+    flex-direction: column;
+}
+
 .cards-nosotros {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));

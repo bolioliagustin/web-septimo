@@ -8,7 +8,7 @@ export default function NoticiasPreview({ value }) {
       <div>
         <img
         className="card-img-top"
-          src={ApiUrl + value.attributes.image.data.attributes.url}
+          src={value.attributes.image.data.attributes.url}
           alt="Card image cap"
         />
       </div>
